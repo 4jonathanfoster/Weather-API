@@ -1,0 +1,143 @@
+                                                    body {
+                                                        overflow: auto;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    header {
+                                                        background: rgb(51, 30, 61);
+                                                        background: linear-gradient(90deg, rgb(211, 5, 5) 0%, rgb(252, 151, 36) 100%);
+                                                        height: 5vh;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    header h1 {
+                                                        font-family: 'Righteous', cursive;
+                                                        color: rgb(255, 224, 49);
+                                                        font-weight: bold;
+                                                        font-size: 2rem;
+                                                    }
+                                                    
+                                                    aside h2 {
+                                                        font-family: 'Abril Fatface', cursive;
+                                                        font-size: 2.5rem;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    input[type="text"] {
+                                                        padding: 2vh 1vw;
+                                                        font-size: 1.5rem;
+                                                        border-radius: 10px;
+                                                    }
+                                                    
+                                                    button {
+                                                        background-color: aqua;
+                                                        margin: 2vh 0vw;
+                                                        width: 100%;
+                                                        border-radius: 10px;
+                                                    }
+                                                    
+                                                    #sidebar {
+                                                        margin-top: 2vh;
+                                                    }
+                                                    
+                                                    #recentSearch {
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    #recentSearch ul {
+                                                        border-top: 3px solid black;
+                                                        padding: 0;
+                                                    }
+                                                    
+                                                    .listStyle {
+                                                        justify-content: center;
+                                                        background-color: rgb(128, 2, 2);
+                                                        margin: 2vh 0vw;
+                                                        padding: 1vh 0vw;
+                                                        border-radius: 10px;
+                                                        font-size: 150%;
+                                                    }
+                                                    
+                                                    #currentDayWeather {
+                                                        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qqktKTKv2s8LX-M19_yrLAhGfOUvQuqDgA&usqp=CAU') no-repeat fixed center;
+                                                        background-size: cover;
+                                                        border: 2px solid black;
+                                                        margin-top: 2vh;
+                                                        margin-right: 1vw;
+                                                        margin-left: 1vw;
+                                                        max-height: 60%;
+                                                    }
+                                                    
+                                                    #currentDayWeather h1 {
+                                                        font-family: 'Prata', serif;
+                                                        font-size: 1.9rem;
+                                                        padding-top: 2vh;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    #currentDayWeather h2 {
+                                                        font-size: 1.5rem;
+                                                        font-family: 'Prata', serif;
+                                                    }
+                                                    
+                                                    #fiveDayWeather {
+                                                        align-content: flex-start;
+                                                        justify-content: space-between;
+                                                        margin: 0vh 1vw;
+                                                    }
+                                                    
+                                                    #fiveDayWeather h2 {
+                                                        background-color: rgb(238, 100, 20);
+                                                        font-family: 'Tourney', cursive;
+                                                        font-size: 3rem;
+                                                        align-self: flex-end;
+                                                        float: left;
+                                                        padding-left: 0;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    .myCard {
+                                                        background-color: aqua;
+                                                        max-width: 14rem;
+                                                        max-height: 20rem;
+                                                        height: 20rem;
+                                                    }
+                                                    
+                                                    .myCardHeader {
+                                                        background-color: rgb(238, 100, 20);
+                                                        font-family: 'Jomhuria', cursive;
+                                                        font-size: 2rem;
+                                                        color: rgb(44, 15, 5);
+                                                        letter-spacing: 0.05rem;
+                                                        padding: 0;
+                                                        padding-top: 1vh;
+                                                    }
+                                                    
+                                                    .myCardText {
+                                                        font-family: 'Tourney', cursive;
+                                                        font-size: 125%;
+                                                        font-weight: 600;
+                                                        padding: 1.5vh 0vw;
+                                                        color: orangered;
+                                                    }
+                                                    
+                                                    .myCardBody {
+                                                        background-color: rgb(241, 168, 32);
+                                                        padding: 0;
+                                                        padding: 2vh 0 .5vw 0;
+                                                    }
+                                                    
+                                                    .myCardPhoto {
+                                                        margin: -26px;
+                                                        color: orangered;
+                                                    }
+                                                    
+                                                    .btn-primary,
+                                                    .btn-check:focus+.btn-primary,
+                                                    .btn-primary:focus,
+                                                    .btn-primary:hover {
+                                                        background-color: orangered;
+                                                        border-color: orangered;
+                                                    }
